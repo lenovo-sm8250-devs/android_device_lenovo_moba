@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Include GSI keys
-$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+# Platform
+TARGET_BOARD_PLATFORM := kona
 
 # fastbootd
 PRODUCT_PACKAGES += \
